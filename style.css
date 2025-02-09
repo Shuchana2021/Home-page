@@ -374,6 +374,13 @@ justify-content: center;
 
 /* footer  */
 
+.footer-section{
+   
+
+    padding-top: 60px;
+   
+}
+
 footer {
     background-color: #2b2b2b; 
     color: #ffffff; 
@@ -386,11 +393,12 @@ footer {
     justify-content: space-around; 
     max-width: 1200px; 
     margin: 0 auto; 
-    padding: 0 20px; 
+    padding: 20px;
 }
 
 .newsletter, .about-us, .social-media {
     flex: 1; /* Make each section take equal width */
+   
 }
 
 .newsletter h3, .about-us h3, .social-media h3 {
@@ -403,6 +411,7 @@ footer {
 
 .newsletter form {
     display: flex;
+   
 }
 
 .newsletter input[type="email"] {
